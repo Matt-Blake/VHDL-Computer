@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Courses/ENEL373/projects/ALUProject/ALUProject.runs/impl_1'
+HD_PWD='P:/Courses/Lab_A03_group_10/ENEL373/ALUProject/ALUProject.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
+/bin/touch .write_bitstream.begin.rst
 EAStep vivado -log Project_File.vdi -applog -m64 -messageDb vivado.pb -mode batch -source Project_File.tcl -notrace
 
 

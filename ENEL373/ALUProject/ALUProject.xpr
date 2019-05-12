@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="14" Path="C:/Courses/ENEL373/projects/ALUProject/ALUProject.xpr">
+<Project Version="7" Minor="14" Path="P:/Courses/Lab_A03_group_10/ENEL373/ALUProject/ALUProject.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="ade7c6d9547e442cacff0aad233827c3"/>
