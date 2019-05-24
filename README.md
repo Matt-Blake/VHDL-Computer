@@ -13,14 +13,17 @@ The operands and the opcode are entered using slideswitches 0 to 7.
 1) Operand A is entered, then BTNC is pushed, storing this value in an 8
 bit register and displaying it on LEDs 0 to 7. This will cause LED 17 blue to
 turn on displaying the current state of the system.
+
 2) Operand B is entered, then BTNC is pushed agian storing the value and
 displaying it using LEDs 0 to 7. This will cause LED 17 blue to turn off
 and LED 17 green to turn on.
+
 3) Similarly the OPcode is then entered. When BTNC is pushed the result of the
 operation will be displayed on LEDs 8 to 15. This will cause LED 17 green to turn
 off and LED 17 red to turn on. In the case of the addition
 operation, if a carry out bit is computed, it will be displayed using LED 16
 blue.
+
 4) Pushing BTNC 4 times while the switches are all down will reset the system
 
 Operations between Operand A and Operand B are performed using the following
