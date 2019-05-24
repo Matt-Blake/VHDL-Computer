@@ -1,4 +1,0 @@
-ERROR: Exception caught trying to open file P:\Courses\Lab_A03_group_10\ENEL373\ALUProject.runs\impl_1/runme.log
-	Exception name: Error
-	Exception error code: 70
-	Exception message: Permission denied

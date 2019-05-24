@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/imports/new/my_ALU.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity my_ALU
-INFO: [VRFC 10-163] Analyzing VHDL file "P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sim_1/new/my_ALU_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity my_ALU_tb
