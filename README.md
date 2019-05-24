@@ -1,6 +1,8 @@
 # Lab_A03_group_10
 Dan Greenhalgh (95484481)
+
 Matt Blake (58979250)
+
 Matthew Robertson (49615199)
 
 This project consists of an 8 bit ALU which can perform four
