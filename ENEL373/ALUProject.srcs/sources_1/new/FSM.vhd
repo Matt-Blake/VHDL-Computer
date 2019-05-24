@@ -1,22 +1,21 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 08.05.2019 11:09:08
--- Design Name: 
--- Module Name: FSM - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
+-- Team: Dan Greenhalgh (95484481), Matthew Blake (58979250), Matthew Robertson (49615199)
+-- Group 10
+
+-- Create Date: 13.03.2019 14:29:04
+-- Module Name: FSM.vhd - Behavioral
+-- Project Name: ALU Project
+
+-- Description: A Finite State Machine (FSM) which implements four different states
+-- depending on which operation is being carried out. The first state inputs an 
+-- 8-bit number from the switch driven data-bus into an 8-bit register. The 
+-- second state does the same thing but for another 8-bit register. The third state
+-- sends the OPCode from the 8-bit data bus into the ALU along with the operands 
+-- from the registers (state 1 and 2) and the output of the ALU is put into yet 
+-- register which is displayed on the 8 left LED's.
+
+-- Revision: Final
+-----------------------------------------------------------------------------------
 
 
 library IEEE;
@@ -39,18 +38,6 @@ signal led0, led1, led2, led3: STD_LOGIC;
 
 
 begin
-
---process(Clk, x)
-  --  begin
-    --    if(Clk'event and Clk='1') then
-      --      delay0 <= x;
-        --    delay1 <= delay0;
-          --  delay2 <= delay1;
-        --end if;
-    --debounced_x <= delay0 and delay1 and delay2;
-    --end process;
-    
-
 process (Clk)
 variable count: integer := 0;
 variable flag: STD_LOGIC;

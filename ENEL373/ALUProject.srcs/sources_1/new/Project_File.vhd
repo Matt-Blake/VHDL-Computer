@@ -1,37 +1,24 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
+-- Team: Dan Greenhalgh (95484481), Matthew Blake (58979250), Matthew Robertson (49615199)
+-- Group 10
+
 -- Create Date: 13.03.2019 14:29:04
--- Design Name: 
--- Module Name: Project_File - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
+-- Module Name: Project_File.vhd - Structural
+-- Project Name: ALU Project
+
+-- Description: This is the main top file which combines all of the components 
+-- together to implement the overall project. 
+
+-- Revision: Final
+-- Additional Comments: ENEL 373 Project which implements VHDL and a Xilinx FPGA, 
+-- to create an ALU with the required components.
+-----------------------------------------------------------------------------------
 
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity Project_File is
     port(

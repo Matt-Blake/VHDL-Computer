@@ -1,7 +1,23 @@
--- reg_8_en
--- VHDL code for an 8-bit register with enable
--- Based on B&V Fig A.37
--- P.J. Bones 3.5.2016
+----------------------------------------------------------------------------------
+-- Team: Dan Greenhalgh (95484481), Matthew Blake (58979250), Matthew Robertson (49615199)
+-- Group 10
+
+-- Create Date: 13.03.2019 14:29:04
+-- Module Name: reg_8_en.vhd - Behavioral
+-- Project Name: ALU Project
+
+-- Description: An 8-bit register for holding operands from the switch driven data
+-- bus. Below are the original comments which show ownership of the file/module.
+
+        -- reg_8_en
+        -- VHDL code for an 8-bit register with enable
+        -- Based on B&V Fig A.37
+        -- P.J. Bones 3.5.2016
+
+-- Revision: Final
+-----------------------------------------------------------------------------------
+
+
 library ieee;
 use ieee.std_logic_1164.all;
 

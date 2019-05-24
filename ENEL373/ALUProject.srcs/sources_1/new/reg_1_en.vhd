@@ -1,40 +1,27 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 08.05.2019 10:40:50
--- Design Name: 
--- Module Name: reg_1_en - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
+-- Team: Dan Greenhalgh (95484481), Matthew Blake (58979250), Matthew Robertson (49615199)
+-- Group 10
 
+-- Create Date: 13.03.2019 14:29:04
+-- Module Name: reg_1_en.vhd - Behavioral
+-- Project Name: ALU Project
 
+-- Description: A 1-bit register for the Carry out bit from the ALU operations.
+-- The component was based on the 8-bit register, reg_8_en.vhd, but being changed
+-- to a 1-bit system.
+
+-- Revision: Final
+-----------------------------------------------------------------------------------
+
+-- We want to use the IEEE libraries.
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity reg_1_en is
-    Port ( D : in STD_LOGIC;
-           Clk : in STD_LOGIC;
-           En : in STD_LOGIC;
+    Port ( D : in STD_LOGIC; -- 1-bit input
+           Clk : in STD_LOGIC; -- Clock input
+           En : in STD_LOGIC; -- Enable input for allowing 
            Q : out STD_LOGIC);
 end reg_1_en;
 

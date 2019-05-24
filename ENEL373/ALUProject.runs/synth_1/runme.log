@@ -18,9 +18,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 7344 
+INFO: Helper process launched with PID 7264 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 278.137 ; gain = 71.563
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 277.516 ; gain = 70.102
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Project_File' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/Project_File.vhd:46]
 INFO: [Synth 8-3491] module 'clock_divider' declared at '//file/UsersD$/dgr74/Home/My Documents/My Pictures/clock_divider.vhd:21' bound to instance 'stage0' of component 'clock_divider' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/Project_File.vhd:92]
@@ -30,9 +30,9 @@ INFO: [Synth 8-638] synthesizing module 'clock_divider' [//file/UsersD$/dgr74/Ho
 INFO: [Synth 8-256] done synthesizing module 'clock_divider' (1#1) [//file/UsersD$/dgr74/Home/My Documents/My Pictures/clock_divider.vhd:54]
 INFO: [Synth 8-3491] module 'FSM' declared at 'P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:25' bound to instance 'stage2' of component 'FSM' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/Project_File.vhd:93]
 INFO: [Synth 8-638] synthesizing module 'FSM' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:31]
-WARNING: [Synth 8-614] signal 'x' is read in the process but is not in the sensitivity list [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:54]
-WARNING: [Synth 8-614] signal 'next_state' is read in the process but is not in the sensitivity list [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:54]
-WARNING: [Synth 8-614] signal 'current_state' is read in the process but is not in the sensitivity list [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:54]
+WARNING: [Synth 8-614] signal 'x' is read in the process but is not in the sensitivity list [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:42]
+WARNING: [Synth 8-614] signal 'next_state' is read in the process but is not in the sensitivity list [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:42]
+WARNING: [Synth 8-614] signal 'current_state' is read in the process but is not in the sensitivity list [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:42]
 INFO: [Synth 8-256] done synthesizing module 'FSM' (2#1) [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:31]
 INFO: [Synth 8-3491] module 'reg_8_en' declared at 'P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/imports/new/red_8_en.vhd:8' bound to instance 'stage3' of component 'reg_8_en' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/Project_File.vhd:94]
 INFO: [Synth 8-638] synthesizing module 'reg_8_en' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/imports/new/red_8_en.vhd:15]
@@ -73,7 +73,7 @@ WARNING: [Synth 8-3331] design Project_File has unconnected port numbers[4]
 WARNING: [Synth 8-3331] design Project_File has unconnected port numbers[5]
 WARNING: [Synth 8-3331] design Project_File has unconnected port numbers[6]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 315.547 ; gain = 108.973
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 315.008 ; gain = 107.594
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -83,7 +83,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 315.547 ; gain = 108.973
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 315.008 ; gain = 107.594
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-3
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -132,33 +132,33 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 618.379 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 618.414 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-3
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "out_clock" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/imports/new/my_ALU.vhd:48]
-WARNING: [Synth 8-327] inferring latch for variable 'y0_reg' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:79]
-WARNING: [Synth 8-327] inferring latch for variable 'y1_reg' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:83]
-WARNING: [Synth 8-327] inferring latch for variable 'y2_reg' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:88]
-WARNING: [Synth 8-327] inferring latch for variable 'y3_reg' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:78]
-WARNING: [Synth 8-327] inferring latch for variable 'current_state_reg' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:67]
+WARNING: [Synth 8-327] inferring latch for variable 'y0_reg' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:67]
+WARNING: [Synth 8-327] inferring latch for variable 'y1_reg' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'y2_reg' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:76]
+WARNING: [Synth 8-327] inferring latch for variable 'y3_reg' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:66]
+WARNING: [Synth 8-327] inferring latch for variable 'current_state_reg' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/new/FSM.vhd:55]
 WARNING: [Synth 8-327] inferring latch for variable 'temp_reg' [P:/Courses/Lab_A03_group_10/ENEL373/ALUProject.srcs/sources_1/imports/new/my_ALU.vhd:56]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -239,7 +239,7 @@ BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 618.379 ; gain = 411.805
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
@@ -261,9 +261,9 @@ WARNING: [Synth 8-3331] design Project_File has unconnected port numbers[4]
 WARNING: [Synth 8-3331] design Project_File has unconnected port numbers[5]
 WARNING: [Synth 8-3331] design Project_File has unconnected port numbers[6]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Parallel Reinference  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 618.414 ; gain = 411.000
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -282,9 +282,9 @@ WARNING: [Synth 8-3332] Sequential element (stage9/temp_reg[2]) is unused and wi
 WARNING: [Synth 8-3332] Sequential element (stage9/temp_reg[1]) is unused and will be removed from module Project_File.
 WARNING: [Synth 8-3332] Sequential element (stage9/temp_reg[0]) is unused and will be removed from module Project_File.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 618.414 ; gain = 411.000
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -298,10 +298,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -313,16 +313,16 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 618.414 ; gain = 411.000
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -339,7 +339,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -352,7 +352,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -364,25 +364,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -429,11 +429,11 @@ Report Instance Areas:
 |9     |  stage9  |my_ALU        |    11|
 +------+----------+--------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 618.379 ; gain = 411.805
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 618.414 ; gain = 411.000
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 29 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 618.379 ; gain = 108.973
-Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 618.379 ; gain = 411.805
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 618.414 ; gain = 107.594
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 618.414 ; gain = 411.000
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 37 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -447,6 +447,6 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 41 Infos, 67 Warnings, 11 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 618.379 ; gain = 411.805
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 618.379 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon May 13 09:59:52 2019...
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 618.414 ; gain = 411.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 618.414 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 13 13:48:59 2019...
