@@ -28,7 +28,11 @@ blue.
 
 Operations between Operand A and Operand B are performed using the following
 opcodes:
+
 Bitwise AND = 0000
+
 Bitwise OR = 0001
+
 Addition = 0010
+
 Subtraction = 0011
