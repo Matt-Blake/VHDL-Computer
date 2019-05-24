@@ -10,6 +10,8 @@ different operations on two 8 bit operands. Physical feedback on the
 values the user has entered as well as the state and results of the operation
 are displayed using LEDs.
 
+The top-level structural VHDL module is called "Project_File.vhd"
+
 The operands and the opcode are entered using slideswitches 0 to 7.
 
 1) Operand A is entered, then BTNC is pushed, storing this value in an 8
