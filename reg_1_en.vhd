@@ -1,16 +1,14 @@
 ----------------------------------------------------------------------------------
--- Team: Dan Greenhalgh (95484481), Matthew Blake (58979250), Matthew Robertson (49615199)
--- Group 10
+-- Authors: Dan Greenhalgh, Matthew Blake, Matthew Robertson
 
--- Create Date: 13.03.2019 14:29:04
+-- Create Date: 13.03.2019
+-- Last updated: 25.08.21
 -- Module Name: reg_1_en.vhd - Behavioral
 -- Project Name: ALU Project
 
 -- Description: A 1-bit register for the Carry out bit from the ALU operations.
 -- The component was based on the 8-bit register, reg_8_en.vhd, but being changed
 -- to a 1-bit system.
-
--- Revision: Final
 -----------------------------------------------------------------------------------
 
 -- We want to use the IEEE libraries.

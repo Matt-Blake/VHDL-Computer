@@ -1,8 +1,6 @@
 ----------------------------------------------------------------------------------
--- Team: Dan Greenhalgh (95484481), Matthew Blake (58979250), Matthew Robertson (49615199)
--- Group 10
+-- Authors: Dan Greenhalgh, Matthew Blake, Matthew Robertson
 
--- Create Date: 13.03.2019 14:29:04
 -- Module Name: clock_divider.vhd - Behavioral
 -- Project Name: ALU Project
 
@@ -18,8 +16,6 @@
         -- Written by Blair Bonnett.
         -- Version: 1.0
         -- Last update: 14 July 2014.
-
--- Revision: Final
 -----------------------------------------------------------------------------------
 
 
@@ -64,7 +60,7 @@ entity clock_divider is
 end clock_divider;
 
 
--- The architecture defines the behaviour of the entity we declared above.
+-- The architecture defines the behavior of the entity we declared above.
 -- In our C analogy, this would be the C file which implements the functions
 -- in the header file.
 architecture behavioral of clock_divider is

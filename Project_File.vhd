@@ -1,18 +1,15 @@
 ----------------------------------------------------------------------------------
--- Team: Dan Greenhalgh (95484481), Matthew Blake (58979250), Matthew Robertson (49615199)
--- Group 10
+-- Authors: Dan Greenhalgh, Matthew Blake, Matthew Robertson
 
--- Create Date: 13.03.2019 14:29:04
+-- Create Date: 13.03.2019
+-- Last updated: 25.08.21
 -- Module Name: Project_File.vhd - Structural
 -- Project Name: ALU Project
 
 -- Description: This is the main top file which combines all of the components 
--- together to implement the overall project. 
-
--- Revision: Final
--- Additional Comments: ENEL 373 Project which implements VHDL and a Xilinx FPGA, 
--- to create an ALU with the required components to perform arithmetic logic functions
--- on two 8-bit operands. The project also provides physical feedback to the user on the
+-- together to implement the overall project. ALU with the required components to
+-- perform arithmetic logic functions on two 8-bit operands is implemented on a
+-- Xilinx FPGA. The project also provides physical feedback to the user on the
 -- input operands, input OPCode and the resulting bitwise value.
 -----------------------------------------------------------------------------------
 

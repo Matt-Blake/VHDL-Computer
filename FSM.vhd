@@ -1,8 +1,8 @@
 ----------------------------------------------------------------------------------
--- Team: Dan Greenhalgh (95484481), Matthew Blake (58979250), Matthew Robertson (49615199)
--- Group 10
+-- Authors: Dan Greenhalgh, Matthew Blake, Matthew Robertson
 
--- Create Date: 13.03.2019 14:29:04
+-- Create Date: 13.03.2019
+-- Last updated: 25.08.21
 -- Module Name: FSM.vhd - Behavioral
 -- Project Name: ALU Project
 
@@ -18,8 +18,6 @@
 -- button C is consistent with real-life pushes, e.g no switching more than one state
 -- per button push. This process implements a timer which counts how long the button
 -- is pushed for.
-
--- Revision: Final
 -----------------------------------------------------------------------------------
 
 -- IEE Libraries for logic
@@ -40,13 +38,13 @@ signal current_state, next_state: state_type := s0; -- Initialise at state s0.
 
 begin 
 process (Clk) -- Process runs when clock changes value, this process handles debouncing
-variable count: integer := 0; -- a varible used for counting 
+variable count: integer := 0; -- a variable used for counting 
 variable flag: STD_LOGIC;     -- flag set to '1' if a successful button push is detected
     begin 
         if Clk'event and Clk = '1' then -- for a rising clock edge
             if ButtonC = '0' then -- debouncer
-               count := 0; -- count is 0 while button isnt pushed
-               flag := '0'; -- flag is 0 which button isnt pushed
+               count := 0; -- count is 0 while button isn't pushed
+               flag := '0'; -- flag is 0 which button isn't pushed
               elsif ButtonC = '1' then -- if button has been pushed
                 count := count + 1; -- if the button is pushed increment count per clock tick
              end if;

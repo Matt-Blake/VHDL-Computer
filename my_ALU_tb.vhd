@@ -1,21 +1,12 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 13.05.2019 10:30:19
--- Design Name: 
--- Module Name: my_ALU_tb - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
+-- Authors: Dan Greenhalgh, Matthew Blake, Matthew Robertson
+
+-- Create Date: 13.05.2019
+-- Last updated: 25.08.21
+-- Module Name: reg_8_en.vhd - Behavioral
+-- Project Name: ALU Project
+
+-- Description: A testbench, which tests the ALU with OPCode inputs.
 ----------------------------------------------------------------------------------
 
 

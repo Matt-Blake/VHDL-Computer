@@ -1,8 +1,8 @@
 ----------------------------------------------------------------------------------
--- Team: Dan Greenhalgh (95484481), Matthew Blake (58979250), Matthew Robertson (49615199)
--- Group 10
+-- Authors: Dan Greenhalgh, Matthew Blake, Matthew Robertson
 
--- Create Date: 13.03.2019 14:29:04
+-- Create Date: 13.03.2019
+-- Last updated: 25.08.21
 -- Module Name: my_ALU.vhd - Behavioral
 -- Project Name: ALU Project
 
@@ -12,8 +12,6 @@
 -- ALU at the same time using a shared enable between the tri-state buffers and 
 -- registers. This ALU also compensates for a Carry out if the binary addition of
 -- the two 8-bit operands exceeds 255 (largest 8-bit number). 
-
--- Revision: Final
 -----------------------------------------------------------------------------------
 
 -- IEE Libraries for logic
@@ -39,7 +37,7 @@ begin
             when "00000001" => Output <= OperandA OR OperandB;  -- Perform a OR operation if the OPCode is 0001
             when "00000010" => Output <= OperandA + OperandB;   -- Perform an addition operation if the OPCode is 0010
             when "00000011" => Output <= OperandA - OperandB;   -- Perform a subtraction operation if the OPCode is 0011
-            when others => Output <= OperandA + "0000";         -- Handle invald OPCode cases
+            when others => Output <= OperandA + "0000";         -- Handle invalid OPCode cases
         end case;
         if (OPCode = "0010") then -- If we are performing an addition (0010 = 0000 0010)
             temp <= ('0' & OperandA) + ('0' & OperandB); -- set temp to the 9-bit addition of both operands

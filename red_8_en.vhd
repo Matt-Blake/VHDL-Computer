@@ -1,8 +1,8 @@
 ----------------------------------------------------------------------------------
--- Team: Dan Greenhalgh (95484481), Matthew Blake (58979250), Matthew Robertson (49615199)
--- Group 10
+-- Authors: Dan Greenhalgh, Matthew Blake, Matthew Robertson
 
--- Create Date: 13.03.2019 14:29:04
+-- Create Date: 13.03.2019
+-- Last updated: 25.08.21
 -- Module Name: reg_8_en.vhd - Behavioral
 -- Project Name: ALU Project
 
@@ -13,8 +13,6 @@
         -- VHDL code for an 8-bit register with enable
         -- Based on B&V Fig A.37
         -- P.J. Bones 3.5.2016
-
--- Revision: Final
 -----------------------------------------------------------------------------------
 
 -- IEE Libraries for logic
