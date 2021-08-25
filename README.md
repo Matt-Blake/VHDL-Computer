@@ -1,44 +1,33 @@
-# Lab_A03_group_10
-Dan Greenhalgh (95484481)
+# VHDL Computer
 
-Matt Blake (58979250)
+## Description
+This project consists of the hardware description of an 8-bit ALU in VHDL. This was designed for the Digilent Nexys-4 DDR FPGA development
+-- board. The ALU can perform AND, OR, addition and multipilicaiton operations on two 8-bit operands. 
 
-Matthew Robertson (49615199)
+## Author
++ Matt Blake
++ Matthew Robertson
++ Dan Greenhalgh
 
-This project consists of an 8 bit ALU which can perform four
-different operations on two 8 bit operands. Physical feedback on the 
-values the user has entered as well as the state and results of the operation
-are displayed using LEDs.
+## License
+Added an [MIT License](LICENSE)
 
-The top-level structural VHDL module is called "Project_File.vhd"
+## Inputs
+The ALU takes 3 inputs, which are operand A, operand B and the OPCode/instruction. The operands and the opcode are entered using slideswitches 0 to 7, with slide 7 representing the MSB. Operand A is first entered, followed by operand B, then the OPCode. BTNC needs to be pushed after each operand to store that operand and proceed to the next stage of the program operation. Pushing BTNC 4 times while the switches are all down will reset the system. The opcodes are defined as the following: 
+* Bitwise AND = 0000
+* Bitwise OR = 0001
+* Addition = 0010
+* Subtraction = 0011
 
-The ALU test-bench module is called "my_ALU_tb.vhd"
+## Outputs
+Outputs
 
-The operands and the opcode are entered using slideswitches 0 to 7.
+## Testing
+Testbench 
 
-1) Operand A is entered, then BTNC is pushed, storing this value in an 8
-bit register and displaying it on LEDs 0 to 7. This will cause LED 17 blue to
-turn on displaying the current state of the system.
+## Known Issues
+There are currently no known issues
 
-2) Operand B is entered, then BTNC is pushed agian storing the value and
-displaying it using LEDs 0 to 7. This will cause LED 17 blue to turn off
-and LED 17 green to turn on.
-
-3) Similarly the OPcode is then entered. When BTNC is pushed the result of the
-operation will be displayed on LEDs 8 to 15. This will cause LED 17 green to turn
-off and LED 17 red to turn on. In the case of the addition
-operation, if a carry out bit is computed, it will be displayed using LED 16
-blue.
-
-4) Pushing BTNC 4 times while the switches are all down will reset the system
-
-Operations between Operand A and Operand B are performed using the following
-opcodes:
-
-Bitwise AND = 0000
-
-Bitwise OR = 0001
-
-Addition = 0010
-
-Subtraction = 0011
+## Contact
+If you encounter any issues or questions with the preprocessing, please contact 
+Matt Blake by email at matt.blake.mb@gmail.com
