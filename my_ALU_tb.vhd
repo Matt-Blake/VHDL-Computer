@@ -6,7 +6,7 @@
 -- Module Name: reg_8_en.vhd - Behavioral
 -- Project Name: ALU Project
 
--- Description: A testbench, which tests the ALU with OPCode inputs.
+-- Description: A testbench, which tests the ALU with opcode inputs.
 ----------------------------------------------------------------------------------
 
 
