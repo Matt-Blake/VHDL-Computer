@@ -7,10 +7,10 @@
 -- Project Name: ALU Project
 
 -- Description: This is the main top file which combines all of the components 
--- together to implement the overall project. ALU with the required components to
--- perform arithmetic logic functions on two 8-bit operands is implemented on a
--- Xilinx FPGA. The project also provides physical feedback to the user on the
--- input operands, input OPCode and the resulting bitwise value.
+-- together to implement the overall project. Performs arithmetic logic operations
+-- on two 8-bit operands is implemented on a Digilent Nexys-4 DDR FPGA development
+-- board. The project also provides physical feedback to the user on the input
+-- operands, input OPCode and the resulting bitwise value.
 -----------------------------------------------------------------------------------
 
 -- IEE Libraries for logic
