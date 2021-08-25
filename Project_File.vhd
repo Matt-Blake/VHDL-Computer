@@ -10,7 +10,7 @@
 -- together to implement the overall project. Performs arithmetic logic operations
 -- on two 8-bit operands is implemented on a Digilent Nexys-4 DDR FPGA development
 -- board. The project also provides physical feedback to the user on the input
--- operands, input OPCode and the resulting bitwise value.
+-- operands, input opcode and the resulting bitwise value.
 -----------------------------------------------------------------------------------
 
 -- IEE Libraries for logic
@@ -25,7 +25,7 @@ entity Project_File is
          BTNC, CLK100MHZ : in std_logic;                        -- 1-bit inputs for Button C (BTNC) and the 100 MHZ clock signal
          LED : out std_logic_vector(7 downto 0);                -- 8-bit LED for showing the input of the switch driven databus
          LED2 : out std_logic_vector(15 downto 8);              -- 8-bit LED for showing the 8-bit result of the ALU
-         LED16_B, LED17_B, LED17_G, LED17_R : out std_logic);   -- Outputs to LED 16 and 17. The blue portion of LED 16 is used to show a CarryOut from bitwise addition.
+         LED16_B, LED17_B, LED17_G, LED17_R : out std_logic);   -- Outputs to LED 16 and 17. The blue portion of LED 16 is used to show a carry out from bitwise addition.
 end Project_File;                                               -- LED 17 shows the state (s0, s1, s2, s3) <=> (off, blue, green, red)
 
 architecture structural of Project_File is
