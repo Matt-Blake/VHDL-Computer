@@ -28,5 +28,4 @@ After each input are stored, it will be displayed using LEDs 0 to 7 (with LED 8 
 There are currently no known issues
 
 ## Contact
-If you encounter any issues or questions with the preprocessing, please contact 
-Matt Blake by email at matt.blake.mb@gmail.com
+If you encounter any issues, please contact Matt Blake by email at matt.blake.mb@gmail.com
